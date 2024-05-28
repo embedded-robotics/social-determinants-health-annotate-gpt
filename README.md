@@ -1,8 +1,8 @@
 # Social Determinants of Health using AnnotateGPT
 
-This repo will deal with the extraction of the social determinants of health (community, tobacco, economics) from discharge summaries of hospitalized patients using prompt engineering in Large Language Models (LLM) like `GPT-3.5-Turbo`. 
+This repo deals with the extraction of the social determinants of health (community, tobacco, economics) from discharge summaries of hospitalized patients using prompt engineering in Large Language Models (LLM) like `GPT-3.5-Turbo`. 
 
-We will use MIMIC-III (https://physionet.org/content/mimiciii/1.4/) and CORAL (https://physionet.org/content/curated-oncology-reports/1.0/) datasets along with the Open AI API (`GPT-3.5-Turbo`). Becasue of the restrictions on accessing MIMIC-III and CORAL data directly by an open-source OpenAI API, we need to access via AZURE OpenAI API. Fill in the Azure credentials in the file `azure_credentials_dummy.json` and rename this file to `azure_credentials.json`
+We use MIMIC-III (https://physionet.org/content/mimiciii/1.4/) and CORAL (https://physionet.org/content/curated-oncology-reports/1.0/) datasets along with the Open AI API (`GPT-3.5-Turbo`). Becasue of the restrictions on accessing MIMIC-III and CORAL data directly by an open-source OpenAI API, we need to access via AZURE OpenAI API. Fill in the Azure credentials in the file `azure_credentials_dummy.json` and rename this file to `azure_credentials.json`
 
 ## Methodology
 
